@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center mt-2">Movies catalog</h2>
+        <div class="row mt-2">
+            <div class="col-4 ">
+                <div>
+                    <form action="https://marvelavengersstation.com/">
+                        <input class="form-control mt-3" value="ave" type="text">
+                        <input class="form-control mt-3" value="5" type="number">
+                        <select class="form-select mt-3" aria-label="Default select example">
+                            <option selected>All</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <select class="form-select mt-3" aria-label="Default select example">
+                            <option selected>Rating (hight to low)</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <button type="submit" class="btn btn-primary form-control mt-3">search</button>
+                    </form>
+                </div>
+                <div>
+                    <h2 class="mt-4"><strong>Bookmarket movies</strong></h2>
+                    <div class="card" style="width: 18rem form-control">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">
+                            <h4>Avengers: Infinity war</h4>
+                            <button type="submit" class="btn btn-danger">Remove</button>
+                        </li>
+                          <li class="list-group-item">
+                            <h4>The Avengers</h4>
+                            <button type="submit" class="btn btn-danger">Remove</button>
+                          </li>
+                          <li class="list-group-item">
+                            <h4>12 Years a slave</h4>
+                            <button type="submit" class="btn btn-danger">Remove</button>
+                          </li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+            <div class="col-8 mt-2 ">
+                <h4>Search results: 39</h4>
+                <div class="alert alert-primary mt-3" role="alert">
+                    Use the form on the left to search for a movie
+                </div>
+                <div class="box d-flex justify-content-between">
+                    <div class="card" style="width: 26rem;">
+                      <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://avatars.mds.yandex.net/i?id=241e76043d0be0d56c3d4a2c0582dd47-5239905-images-thumbs&n=13" class="d-block w-100 card-img-top" alt="avengers">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://images.hdqwalls.com/download/avengers-infinity-war-4k-poster-1o-2048x1152.jpg" class="d-block w-100  card-img-top" alt="avengers">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://i.pinimg.com/originals/34/ca/a4/34caa464582279a6db6f51b77b121bca.jpg" class="d-block w-100  card-img-top" alt="avengers">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                        <!-- <img src="https://avatars.mds.yandex.net/i?id=241e76043d0be0d56c3d4a2c0582dd47-5239905-images-thumbs&n=13" class="card-img-top" alt="Marvel"> -->
+                        <div class="card-body">
+                          <h5 class="card-title">Avengers: Infinity war</h5>
+                          <div class="box d-flex">
+                            <img src="./img/kalendar.jpg" width="25" height="25" alt="kalendar">
+                            <p class="p ms-2">2018</p>
+                        </div>
+                        <div class="box d-flex">
+                            <img src="./img/star.jpg" width="25" height="25" alt="star">
+                            <p class="p ms-2">8.7</p>
+                        </div>
+                            <div class="box d-flex justify-content-between btn-sm">                      
+                                <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal">Watch trailer</a>
+                                <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">More info</a>
+                                <a href="#" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Bookmark</a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="card col-4" style="width: 26rem;">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="https://sm.ign.com/t/ign_nl/gallery/2/22-avenger/22-avengers-infinity-war-character-posters_88ur.1200.jpg" class="d-block w-100 card-img-top" alt="avengers">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://i.pinimg.com/originals/98/0e/15/980e157ab0a3928d67f296bba5fd36d5.jpg" class="d-block w-100  card-img-top" alt="avengers">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://i.pinimg.com/originals/34/ca/a4/34caa464582279a6db6f51b77b121bca.jpg" class="d-block w-100  card-img-top" alt="avengers">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                        <!-- <img src="https://sm.ign.com/t/ign_nl/gallery/2/22-avenger/22-avengers-infinity-war-character-posters_88ur.1200.jpg" class="card-img-top" alt="Marvel"> -->
+                        <div class="card-body">
+                          <h5 class="card-title">Avengers: Infinity war</h5>
+                            <div class="box d-flex">
+                                <img src="./img/kalendar.jpg" width="25" height="25" alt="kalendar">
+                                <p class="p ms-2">2012</p>
+                            </div>
+                            <div class="box d-flex">
+                                <img src="./img/star.jpg" width="25" height="25" alt="star">
+                                <p class="p ms-2">8.1</p>
+                            </div>
+                            <div class="box d-flex justify-content-between w-90">                      
+                                <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal">Watch trailer</a>
+                                <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">More info</a>
+                                <a href="#" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Bookmark</a>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <nav class="nav mt-4 justify-content-center">
+                    <ul class="pagination pagination-sm">
+                      <li class="page-item active" aria-current="page">
+                        <span class="page-link">1</span>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Avengers</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe. ... Original title: Avengers: Infinity War.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
